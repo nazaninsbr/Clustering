@@ -9,7 +9,5 @@ the link for the formula behind fuzzy c-mean clustering is available in the file
 
 <br>
 enter 
-```
-python3 clustering.py
-``` 
+`python3 clustering.py` 
 to run this program 
