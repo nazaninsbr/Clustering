@@ -21,7 +21,7 @@ def read_file(path):
 
 if __name__ == '__main__':
 	choice = input('1.K-Clustering 2.Fuzzy C-means Clustering (1/2)')
-	car_data = read_file("../files/cars.csv")
+	car_data = read_file("./files/cars.csv")
 	k = (2, 3, 5, 6)
 	if choice=='1':
 		kClustering.run_k_clustering(car_data, k)
